@@ -22,3 +22,7 @@ CovidRatesAPICheck is a c# framework that analyses backend covid data from vario
 Tests are implemented using Specflow (BDD) which enables the re-use of steps and enables users to understand what's being tested and the expected outcomes.
 - Navigate to the Features folder and locate CovidAnalysis.feature file
 - You can modify some of the parameters within the feature file, ensuring you understand how the API you are targeting works.
+
+## Github Actions
+- The framework is configured to build on GHA pipelines, the pipeline builds and runs the tests, producing a livingdoc reports also.
+- To find out more check previous builds.
